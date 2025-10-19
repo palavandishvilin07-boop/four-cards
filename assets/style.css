@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: sans-serif;
+    & h1 {
+        color: gray;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+h2 {
+    color: rgb(74, 71, 71);
+    font-size: 32px;
+    margin-bottom: 30px
+}
+    & p {
+        color: gray;
+    }
+}
+
+
+
+div {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 
+    0 10px 20px rgb(0, 0, 0,0.08),
+    0 3px 6px rgb(0, 0, 0,0.05);
+    border-radius: 8px;
+    & h2 {
+        margin-top: 10px;
+        color: gray;
+    }
+    & p {
+        margin-top: 10px;
+        color: gray;
+    }
+    & img {
+        position: absolute;
+        left: 70%;
+        top: 60%;
+    }
+}
+
+.team {
+    border-top: 5px solid red;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.karma {
+    border-top: 5px solid orange;
+    position: absolute;
+    top: 62%;
+    left: 40%;
+}
+.supervisor {
+    border-top: 5px solid aqua;
+    position: absolute;
+    top: 49%;
+    left: 19%;
+}
+.calc {
+    border-top: 5px solid blue;
+    position: absolute;
+    top: 49%;
+    left: 61%;
+}
